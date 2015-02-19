@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.3" type="template">
+	<name>khmertoon</name>
+	<creationDate>2015-02-19</creationDate>
+	<author>Vanndy Sun</author>
+	<authorEmail>sun_vanndy@yahoo.com</authorEmail>
+	<authorUrl>http://www.sunvanndy.com</authorUrl>
+	<copyright>Vanndy Sun 2015</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>My new template for Khmer webtoon site</description>
+
+	<files>
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<filename>templateDetails.xml</filename>
+		<filename>index.php</filename>
+	</files>
+
+	<positions>
+		<position>header</position>
+		<position>header-left</position>
+		<position>header-right</position>
+		<position>breadcrumb</position>
+		<position>content-left</position>
+		<position>content-right</position>
+		<position>content-top</position>
+		<position>slider-novel</position>
+		<position>schedule-list</position>
+		<position>recent-post</position>
+		<position>top-view</position>
+		<position>top-rate</position>
+		<position>top-favorite</position>
+		<position>footer</position>
+	</positions>
+
+</extension>
