@@ -147,13 +147,27 @@ else
 					</div>
 				</div>
 			</header>
-			<?php if ($this->countModules('position-1')) : ?>
+
+			<?php if ($this->countModules('khmertoon-menu')) : ?>
 				<nav class="navigation" role="navigation">
-					<jdoc:include type="modules" name="position-1" style="none" />
+					<jdoc:include type="modules" name="khmertoon-menu" style="none" />
 				</nav>
 			<?php endif; ?>
+			
 			<!-- <jdoc:include type="modules" name="banner" style="xhtml" /> -->
-			<jdoc:include type="modules" name="slider-novel" style="none" />
+			<div id="content-slider">
+				<jdoc:include type="modules" name="slider-novel" style="none" />
+			</div>
+
+			<div id="content-schedule">
+				<jdoc:include type="module" name="schedule-list" style="none" />
+			</div>
+
+
+
+
+
+
 			<div class="row-fluid">
 				<?php if ($this->countModules('position-8')) : ?>
 					<!-- Begin Sidebar -->
