@@ -152,7 +152,8 @@ else
 					<jdoc:include type="modules" name="position-1" style="none" />
 				</nav>
 			<?php endif; ?>
-			<jdoc:include type="modules" name="banner" style="xhtml" />
+			<!-- <jdoc:include type="modules" name="banner" style="xhtml" /> -->
+			<jdoc:include type="modules" name="slider-novel" style="none" />
 			<div class="row-fluid">
 				<?php if ($this->countModules('position-8')) : ?>
 					<!-- Begin Sidebar -->
@@ -165,6 +166,7 @@ else
 				<?php endif; ?>
 				<main id="content" role="main" class="<?php echo $span; ?>">
 					<!-- Begin Content -->
+
 					<jdoc:include type="modules" name="position-3" style="xhtml" />
 					<jdoc:include type="message" />
 					<jdoc:include type="component" />
